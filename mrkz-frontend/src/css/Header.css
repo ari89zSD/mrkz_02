@@ -1,0 +1,63 @@
+.header {
+  background-color: rgba(224, 198, 198, 0.938);
+  display: flex;
+  align-items: center;
+  /* Next lines will force navbar to stay on top of window
+    even if we scroll down */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain; /*even if screen resized, always keep aspect ratio same */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1; /* This tells container to take as 
+            much space needed even if window is resized */
+}
+
+.header_searchInput {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 30px !important;
+  background-color: rgba(45, 135, 219, 0.815);
+}
+
+.header__hamburgerMenu {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 3px;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__profileIcon {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__shoppingCart {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
