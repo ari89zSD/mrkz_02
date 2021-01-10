@@ -24,6 +24,7 @@ function Home() {
         </Carousel>
       </div>
       {/* Hottest Products of The Day */}
+      <strong>Today's Hottest Selling Products!</strong>
       <div className="home__hottestProducts">
         <Product
           id="12300"
